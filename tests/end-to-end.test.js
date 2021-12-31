@@ -3,7 +3,7 @@ import LoginPage from '../pages/LoginPage'
 import TopBar from '../pages/components/TopBar'
 import FeedbackPage from '../pages/FeedbackPage'
 
-describe('Google', () => {
+describe('End-To-End Test', () => {
   let homepage
   let loginpage
   let topbar
