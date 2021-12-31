@@ -25,7 +25,8 @@ describe('Google', () => {
 
   it('login fail', async () => {
     await topbar.clickSignInButton();
-    await loginpage.failLogin("atakan","123456");
+    await loginpage.isLoginFormDisplayed();
+    await loginpage.login("atakan","123456");
   })
 
 })
