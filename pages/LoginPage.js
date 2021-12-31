@@ -1,7 +1,5 @@
 export default class LoginPage{
     async failLogin(username,password){
-        await page.goto("http://zero.webappsecurity.com/login.html");
-
         await page.waitForSelector("#user_login");
         await page.waitForSelector("#user_password");
         await page.waitForSelector(".btn");
