@@ -1,0 +1,23 @@
+{
+  "name": "puppeteerjestproject",
+  "version": "1.0.0",
+  "description": "test framework using jest and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "keywords": [
+    "Jest",
+    "Puppeteer"
+  ],
+  "author": "atakan.tekoglu",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "jest-puppeteer": "^6.0.3",
+    "puppeteer": "^13.0.1"
+  }
+}
