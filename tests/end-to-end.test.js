@@ -33,5 +33,14 @@ describe('End-To-End Test', () => {
     );
   })
 
+  it("should login to application", async () => {
+    await homePage.visit();
+    await topBar.isTopBarDisplayed();
+    await topBar.clickSignInButton();
+    await loginPage.isLoginFormDisplayed();
+    await loginPage.login("atakan","123456");
+  
+  })
+
 
 })
